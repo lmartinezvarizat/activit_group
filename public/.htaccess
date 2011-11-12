@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+
+    Options +FollowSymlinks
+
+    RewriteEngine on
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    #DirectoryIndex  /htdocs/cms/front.php                          [L]
+
+    #RewriteRule ^/$                 index.php?URL=/     [QSA]
+    #RewriteRule ^$                  index.php?URL=/     [QSA]
+
+    #RewriteRule ^(.*)\.html         index.php?URL=$1    [QSA]
+    RewriteRule ^(.*)$              index.php/$1        [L]
+
+</IfModule>

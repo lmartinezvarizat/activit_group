@@ -1,0 +1,87 @@
+@import url("content.css");
+/* *** generique template ** */
+div#en_contruction {
+    padding-top         : 15%;
+    text-align          : center;
+}
+#banniere {
+    width               : 100%;
+    height              : 84px;
+    padding-top         : 30px;
+    background          : url(../../img/front/background-banniere.png) repeat-x;
+    position            : relative;
+    z-index             : 10;
+}
+#banniere a#logo, #banniere a#logo:visited, #banniere a#logo:link {
+    text-align          : left;
+    margin-left         : 20%;
+    color               : #FFF;
+    text-decoration     : none;
+}
+#banniere a#logo:hover {
+    text-decoration     : underline;
+}
+
+/* **** LOGIN ****/
+#banniere #login {
+    position            : absolute;
+    top                 : 10px;
+    right               : 10px;
+    color               : #FFF;
+    cursor              : pointer;
+}
+#espace_login {
+    position            : absolute;
+    width               : 350px;
+    background          : #ccc;
+    color               : #FFF;
+    height              : 114px;
+    right               : 0;
+    top                 : -114px;
+    z-index             : 20;
+    opacity             : 0;
+}
+#form_user {
+    width               : 300px;
+    float               : right;
+    margin-right        : 30px;
+}
+#close_login {
+    position            : absolute;
+    right               : 2px;
+    top                 : 0;
+    cursor              : pointer;
+}
+/* **** feedback *** */
+#show-profiler {
+    writing-mode        : tb-rl;
+    position            : absolute;
+    z-index             : 900;
+    right               : 0;
+    color               : #FFF;
+    background          : #000;
+    top                 : 47%;
+    cursor              : pointer;
+}
+#page-profiler {
+    position            : absolute;
+    z-index             : 900;
+    right               : -100%;
+    color               : #000;
+    background          : #CCC;
+    top                 : 114px;
+    width               : 98%;
+    padding             : 1%;
+    height              : 84%;
+    opacity             : 0;
+    display             : none;
+}
+#close-profiler {
+    position            : absolute;
+    z-index             : 910;
+    right               : 10px;
+    top                 : 10px;
+    background          : #000;
+    color               : #FFF;
+    cursor              : pointer;
+}

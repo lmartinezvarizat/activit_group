@@ -1,0 +1,33 @@
+body {
+    margin              : 0;
+    padding             : 0;
+    color               : #000;
+    background          : #fff;
+}
+br.clearfloat {
+    clear               : both;
+    height              : 0;
+    font-size           : 1px;
+    line-height         : 0px;
+}
+label {
+    width               : 150px;
+    display             : inline-block;
+}
+img {
+    border              : 0;
+}
+a, a:visited, a:link {
+    border              : none;
+    text-decoration     : none;
+    color               : #666;
+}
+a:hover {
+    text-decoration     : underline;
+}
+h1 {
+    color               : #666;
+    font-weight         : bold;
+    font-size           : 24px;
+    font-family         : Georgia;
+}

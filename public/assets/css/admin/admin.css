@@ -1,0 +1,38 @@
+@import url("content.css");
+
+#bandeau-logo {
+    width               : 100%;
+    height              : 70px;
+    padding-top         : 30px;
+    background          : #FFF;
+}
+#bandeau-logo a {
+    text-align          : left;
+}
+
+#sidebar {
+    float               : left;
+    width               : 250px;
+}
+.menu-sidebar {
+    width               : 100%;
+    padding             : 0;
+    margin              : 0;
+}
+.menu-sidebar li {
+    list-style          : none;
+}
+.menu-sidebar li a, .menu-sidebar li a:visited, .menu-sidebar li a:link {
+    text-decoration     : none;
+    color               : #000;
+    display             : block;
+    padding             : 10px;
+}
+.menu-sidebar li a:hover {
+    text-decoration     : none;
+    background          : #000;
+    color               : #FFF;
+}
+#content {
+    margin-left         : 250px;
+}

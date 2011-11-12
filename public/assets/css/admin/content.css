@@ -1,0 +1,31 @@
+body {
+    margin              : 0;
+    padding             : 0;
+    color               : #000;
+    background          : #FFF;
+}
+br.clearfloat {
+    clear               : both;
+    height              : 0;
+    font-size           : 1px;
+    line-height         : 0px;
+}
+img {
+    border              : 0;
+}
+a, a:visited, a:link {
+    border              : none;
+    text-decoration     : none;
+    color               : #000;
+}
+a:hover {
+    text-decoration     : underline;
+}
+label {
+    width               : 150px;
+    display             : inline-block;
+}
+h1 {
+    padding-top         : 0;
+    margin-top          : 0;
+}
